@@ -339,7 +339,7 @@ Includes imports/exports, polls, mass emails, logs, and BI reports.
 | 🔐 Unalterable Logs          | View secure, non-editable logs for sensitive system events and data changes — used for audits and compliance. |
 
 ---
-
+<img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/b35f9eda-758a-4cfd-ab98-09278848612e" />
 ## 3. Benefits & Limitations
 
 ### ✅ Advantages for Stakeholders
