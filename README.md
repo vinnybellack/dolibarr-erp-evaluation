@@ -56,6 +56,32 @@ Track employee data, leave balances, expenses, attendance, and recruitment.
 * Leave: New, Collective, List, Balance, Statement, Logs
 * Expenses: New, List, Payments, Stats
 * Recruitment: New Job, Job List, Applications
+  # 🧾 HR & Leave Management Module Summary (Dolibarr ERP)
+
+This repository section summarizes the **HR & Attendance**, **Leave Management**, **Expense Reports**, **Recruitment**, and **Communication** modules from Dolibarr ERP. The content is extracted from an internal evaluation conducted for TEMS Tech Solutions.
+
+---
+
+## 📄 Summary Table – HR & Leave Management
+
+| **Section**                   | **Purpose**                                                  |
+|------------------------------|--------------------------------------------------------------|
+| Leave → New                  | Submit individual leave requests                             |
+| Leave → New Collective       | Assign leave to groups (e.g., holidays)                      |
+| Leave → List                 | View all leave records                                       |
+| Leave → Balance              | Show leave entitlement and remaining balance                 |
+| Leave → Monthly Statement    | Monthly breakdown of leaves per employee                     |
+| Leave → Change Logs          | Audit changes in leave records                               |
+| Expense Reports → New        | Submit expense claim                                         |
+| Expense Reports → List       | View all claims                                              |
+| Expense Reports → Payments   | Mark reimbursements                                          |
+| Expense Reports → Stats      | Analyze expense trends                                       |
+| Time Tracking                | Log time against tasks/projects                              |
+| Recruitment → New Job        | Add a new vacancy                                            |
+| Recruitment → Job List       | See all job openings                                         |
+| Recruitment → Application    | Add a new candidate                                          |
+| Recruitment → App List       | View and track all applicants                                |
+
 
 ### 2.2 Communication
 
