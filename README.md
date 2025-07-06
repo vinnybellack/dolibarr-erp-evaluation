@@ -2,7 +2,7 @@
 
 ## Repository Overview
 
-This GitHub repository serves as a comprehensive documentation and research project focused on evaluating the open-source **Dolibarr ERP and CRM system**. It is prepared by Vinod Balakrishnan for internal use at TEMS Tech Solutions, covering module-wise capabilities, workflows, integration patterns, benefits, limitations, and options for cloud vs. self-hosted setup.
+This GitHub repository serves as a comprehensive documentation and research project focused on evaluating the open-source **Dolibarr ERP and CRM system**. It is prepared by Vinod Balakrishnan for internal use at a company, covering module-wise capabilities, workflows, integration patterns, benefits, limitations, and options for cloud vs. self-hosted setup.
 
 ---
 
@@ -418,4 +418,4 @@ Includes imports/exports, polls, mass emails, logs, and BI reports.
 
 ### 📎 Demo Link: [Dolibarr Public Demo](https://demo.dolibarr.org/public/demo/index.php)
 
-### 📧 Feedback & Queries: [vinod.tems@gmail.com](mailto:vinod.tems@gmail.com)
+### 📧 Feedback & Queries
