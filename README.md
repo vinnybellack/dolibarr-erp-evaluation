@@ -87,7 +87,35 @@ This repository section summarizes the **HR & Attendance**, **Leave Management**
 
 Facilitates messaging, approvals, notifications across Sales, HR, Support.
 **Workflows:** Proposals, Orders, Contracts, Vendor Management, Subscriptions, Interventions
+## 📄 Summary Table – Sales & Vendor Communication
 
+| **Module**         | **Purpose / Use**                                                                 |
+|--------------------|-----------------------------------------------------------------------------------|
+| 📨 Communications   |                                                                                   |
+| Commercial Proposals → New       | Create a sales quotation for a client before order confirmation.          |
+| Commercial Proposals → List      | View and manage all sent proposals with status tracking.                  |
+| Commercial Proposals → Statistics| Analyze proposal conversion rates and forecast revenue.                   |
+| 🧾 Sales Orders     |                                                                                   |
+| Sales Orders → New Order         | Place a new customer order manually or from an accepted proposal.         |
+| Sales Orders → List              | View all customer orders with filters by status, customer, date, etc.     |
+| Sales Orders → Lines of Orders   | See all product-level order details across sales orders.                  |
+| Sales Orders → Statistics        | Monitor sales trends, top customers, and order volumes.                   |
+| 📦 Vendor Proposals |                                                                                   |
+| Vendor Proposals → New Request   | Create and send an RFQ (Request for Quotation) to suppliers.              |
+| 📦 Vendor Proposals     |                                                                                            |
+| Vendor Proposals → List        | Manage all received supplier quotations in one place.                                |
+| Vendor Proposals → Statistics  | Track quote responses, vendor performance, and proposal success rates.               |
+| 🛒 Purchase Orders       |                                                                                            |
+| Purchase Orders → New Order   | Create a formal purchase order to procure goods/services from vendors.               |
+| Purchase Orders → List        | View all POs with current status (ordered, received, billed).                        |
+| Purchase Orders → Statistics  | Analyze purchase volume, frequent suppliers, and cost trends.                        |
+| 📄 Contracts / Subscriptions |                                                                                            |
+| Contracts → New Contract      | Start a new customer contract or service subscription (e.g., AMC, SaaS).             |
+| Contracts → List              | Track ongoing, expired, or renewable contracts with customer info.                    |
+| 🛠 Interventions (Services)   |                                                                                            |
+| Interventions → New           | Log new on-site service work (support, repairs, etc.).                               |
+| Interventions → List          | Manage and assign all field service tasks to team members.                           |
+| Interventions → Statistics    | View service performance data, time taken, and team efficiency.                      |
 ### 2.3 Projects & Tasks
 
 Plan projects, assign tasks, track time, and analyze progress.
