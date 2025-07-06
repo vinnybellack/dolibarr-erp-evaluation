@@ -120,46 +120,223 @@ Facilitates messaging, approvals, notifications across Sales, HR, Support.
 
 Plan projects, assign tasks, track time, and analyze progress.
 **Workflows:** Leads, Project Lists, Task Tracking, Time Logging
+## 📄 Summary Table – Projects, Tasks & Time Tracking
+
+| **Module / Feature**     | **Purpose / Use**                                                                            |
+|--------------------------|----------------------------------------------------------------------------------------------|
+| 📁 Projects & Leads       |                                                                                              |
+| Projects → New lead or project | Create a new business lead (potential project) or a confirmed project.                 |
+| Projects → List               | View and manage all projects and leads in the system.                                   |
+| Projects → List open leads    | View all ongoing or active leads not yet converted into projects.                      |
+| Projects → List open projects | Track ongoing/active projects under execution.                                          |
+| Projects → Statistics         | Analyze project metrics — number, success rate, average duration, budget usage.        |
+| ✅ Tasks / Activities    |                                                                                              |
+| Tasks → New task             | Create a new task within a project, assign team members, set deadlines.                 |
+| Tasks → List                 | View all tasks across projects with filters (status, assignee, deadline).               |
+| Tasks → Statistics           | Analyze task progress, completion rates, team productivity.                             |
+| ⏱ Time Tracking        |                                                                                              |
+| Time Tracking → List         | View logged working hours against tasks/projects for billing or analysis.              |
 
 ### 2.4 Sales & Lead Generation (Third Parties)
 
 Central CRM for leads, clients, vendors, contacts.
 **Workflows:** Third Party, Prospects, Customers, Vendors, Addresses
+## 📄 Summary Table – CRM: Third Parties & Contacts
 
+| **Module / Feature**         | **Purpose / Use**                                                                 |
+|------------------------------|-----------------------------------------------------------------------------------|
+| 👥 Third Parties              |                                                                                   |
+| Third Party → New Third Party    | Create a general third-party profile (can be later marked as customer/vendor).     |
+| Third Party → List               | View and manage all third-party entries — customers, vendors, and prospects.       |
+| 🌱 Prospects                |                                                                                   |
+| Prospects → New Prospect        | Add a new business prospect (potential customer).                                |
+| 󰳖 Customers              |                                                                                   |
+| Customers → New Customer       | Register a new customer with relevant business and contact information.           |
+| 🏢 Vendors                |                                                                                   |
+| Vendors → New Vendor           | Register a supplier or vendor to be used in purchases or services.                |
+| 📇 Contacts / Addresses    |                                                                                   |
+| Contacts → New Contact/Address | Add a contact person or additional address related to a third party.             |
+| Contacts → List                | View all saved contacts and addresses, searchable by company or type.            |
+| Contacts → Prospects           | Filter contact list to show only those related to prospects.                      |
+| Contacts → Customers           | Filter contact list to show only those associated with customers.                 |
+| Contacts → Vendors             | Filter contact list to show only vendor-related contacts.                         |
+| Contacts → Other               | Contacts not directly tied to the above categories (e.g., partners, misc).        |
+
+---
 ### 2.5 Billing
 
 Professional invoicing for customers and vendors.
 **Workflows:** Invoices, Templates, Payments, Tax Management, Recurring Bills
+## 📄 Summary Table – Billing & Special Financial Transactions
 
+| **Module / Feature**               | **Purpose / Use**                                                                 |
+|------------------------------------|-----------------------------------------------------------------------------------|
+| 💳 Billing                         |                                                                                   |
+| 📄 Customer Invoices               |                                                                                   |
+| Customer Invoices → New Invoice       | Create a new sales invoice for a customer. Can be linked to orders or proposals. |
+| Customer Invoices → List              | View and manage all customer invoices (draft, validated, paid, overdue).         |
+| Customer Invoices → List of Templates | Use predefined invoice templates for quicker billing.                            |
+| Customer Invoices → Payments          | Record customer payments received for issued invoices.                           |
+| Customer Invoices → Statistics        | Analyze sales billing data – totals, trends, outstanding balances.               |
+| 🧾 Vendor Invoices                 |                                                                                   |
+| Vendor Invoices → New Invoice         | Enter a new invoice received from a supplier/vendor.                             |
+| Vendor Invoices → List                | View all vendor bills with due dates, payment status, and related documents.     |
+| Vendor Invoices → List of Templates   | Use saved templates for recurring vendor invoice formats.                        |
+| Vendor Invoices → Payments            | Record payments made to vendors.                                                 |
+| Vendor Invoices → Statistics          | Analyze purchasing spend, vendor billing trends, and payment delays.             |
+| 🧮 Billable Orders                | View customer orders eligible to be invoiced but not yet billed.                  |
+| 🎁 Donations                    | Record financial or in-kind donations for NGOs or CSR reporting.                  |
+| 🏛 Taxes & Special Expenses       |                                                                                   |
+| Social/Fiscal Taxes                  | Manage regulatory payments like TDS, EPF, income tax, corporate tax, etc.        |
+| IGST / CGST / SGST                  | Record and manage GST components as per Indian tax laws.                          |
+| 👥 Salaries                      | Maintain employee salary disbursement records with optional linkage to payroll.  |
+| 🧾 Loans & Misc. Payments         | Record business loans or irregular payments under special expense categories.     |
+| 📊 Margins                       | Track margins per transaction or customer/project for profitability insights.     |
+
+---
 ### 2.6 Banking
 
 Track cash flow and reconcile accounts.
 **Workflows:** Bank Creation, Entries, Transfers, POS, Stripe Integration
+## 📄 Summary Table – Banking, POS, and Stripe
+
+| **Module / Feature**                  | **Purpose / Use**                                                                 |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| 🏦 Banking – Banks / Cash             |                                                                                   |
+| Banks / Cash → New Financial Account | Create a new bank account, cash register, or online wallet (e.g., Stripe, PayPal).|
+| Banks / Cash → List                  | View all financial accounts created within the system.                            |
+| Banks / Cash → List Entries          | Review all individual transactions per account — deposits, withdrawals, fees.     |
+| Banks / Cash → List Entries by Category | Filter transactions based on categories (sales, purchases, salaries, etc.).     |
+| Banks / Cash → Internal Transfer     | Transfer funds between internal accounts (e.g., Bank → Cash, Bank A → Bank B).    |
+| Banks / Cash → Payment by Direct Debit | Record customer payments collected via direct debit.                            |
+| Banks / Cash → Payment by Credit Transfer | Record vendor or employee payments made via bank transfer.                    |
+| Banks / Cash → Deposit Slips         | Generate and track bank deposit slips for cash/check deposits.                    |
+| 🧾 POS Cash Control                  |                                                                                   |
+| POS Cash Control → New Cash Control | Log POS opening or closing balance, used for daily cash register audits.          |
+| POS Cash Control → List             | View and manage all POS cash control logs across dates and locations.             |
+| 💳 Stripe Integration               |                                                                                   |
+| Stripe Account → List of Stripe Payouts | View and reconcile Stripe payments and automated transfers to your bank account.|
+
+---
 
 ### 2.7 Accounting
 
 Maintain journals, ledgers, P\&L, and fiscal compliance.
 **Workflows:** Sales, Purchases, Expense Reports, Trial Balance, Closure
+## 📄 Summary Table – Accounting & Reporting
 
+| **Module / Feature**                    | **Purpose / Use**                                                                 |
+|-----------------------------------------|-----------------------------------------------------------------------------------|
+| 📘 Accounting – Core Entries & Journals |                                                                                   |
+| Transfer in Accounting                  | Initiate the transfer of financial documents (invoices, expenses) into accounting.|
+| Customer Invoice Binding                | Link customer invoices to appropriate accounting entries/accounts.                |
+| Vendor Invoice Binding                  | Link supplier/vendor invoices to accounting.                                      |
+| Expense Report Binding                  | Bind employee expense reports to general ledger accounts.                         |
+| Recording in Accounting                 | Finalize accounting entries after verification (journal posting).                 |
+| Sales (Sale Journal)                    | View and manage accounting entries from customer sales and invoices.              |
+| Purchases (Purchase Journal)            | Track accounting records of all vendor purchases and bills.                       |
+| Bank (Bank Journal)                     | Reflect bank transactions — deposits, payments, fees, transfers.                  |
+| Expense Reports (Expense Report Journal)| Maintain records of employee expenses categorized for accounting.                 |
+| 📂 Source Document Export & Ledger     |                                                                                   |
+| Export Source Documents                 | Export invoices, expenses, or other documents to external systems (CSV, etc.).    |
+| 📒 Accounting Reports                  |                                                                                   |
+| Ledger                                  | View full general ledger showing all debit/credit entries by account.             |
+| Journals                                | Browse entries by journal type (sales, purchase, bank, cash, etc.).              |
+| Account Balance                         | See balances of individual accounts (assets, liabilities, income, expenses).      |
+| Export Accountancy                      | Export full accounting data for third-party systems or audits.                    |
+| Closure                                 | Perform fiscal year or period closing operations (lock entries, finalize books).  |
+| 📊 Reporting                           |                                                                                   |
+| Reporting                               | Generate key accounting reports: balance sheet, P&L, trial balance, etc.          |
+
+---
 ### 2.8 Document Management
 
 Centralized file system tied to modules.
 **Workflows:** Manual Directories, Object Linked Folders
+## 📄 Summary Table – Document Management
 
+| **Module / Feature**        | **Purpose / Use**                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------------|
+| 📂 Document Management (DMS / ECM) |                                                                               |
+| DMS/ECM Area                 | Centralized space to manage all uploaded documents across the system (PDFs, images, contracts, etc.). |
+| Manual Directories          | Create custom folders manually to organize internal or shared company files.     |
+| Object Directories          | Automatically generated folders linked to Dolibarr objects (e.g., customers, invoices, projects), allowing contextual file storage. |
+
+---
 ### 2.9 Agenda
 
 Shared calendar for events, reminders, and team tasks.
 **Workflows:** Events, Calendar Views, Resource Booking
+## 📄 Summary Table – Agenda & Scheduling
+
+| **Module / Feature**             | **Purpose / Use**                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------------|
+| 🗓 Agenda – Events & Calendar    |                                                                                   |
+| Events → New Event               | Create a new calendar event — meetings, tasks, calls, deadlines, etc.             |
+| Events → List                    | View all created events with filters (date, user, type, project, etc.).           |
+| Events → My Incomplete Events    | Shows user's upcoming or overdue events not yet marked as completed.              |
+| Events → My Terminated Events    | Shows user's past events that are marked as completed.                            |
+| Events → All Incomplete Events   | Displays all pending events across all users and teams.                           |
+| Events → All Terminated Events   | Displays all completed events company-wide.                                       |
+| 📅 Calendar View                |                                                                                   |
+| Calendar → My Incomplete Events  | Calendar-style view of user's upcoming/pending events.                            |
+| Calendar → My Terminated Events  | Calendar view showing user's completed events.                                    |
+| Calendar → All Incomplete Events | Calendar view of all pending events for teams/departments.                        |
+| Calendar → All Terminated Events | Calendar view showing completed events across the company.                        |
+| 📊 Reporting                    |                                                                                   |
+| Reporting                        | Generate event and calendar-based reports — by user, type, status, and time.      |
+| 🧰 Resources                    |                                                                                   |
+| Resources → New Resource         | Add a new shared resource (room, device, vehicle) that can be booked for events.  |
+| Resources → List                 | View all resources available for scheduling and usage tracking.                   |
+
+---
 
 ### 2.10 Tickets
 
 Internal/external issue tracking and support documentation.
 **Workflows:** Tickets, My Tickets, Knowledge Base, Categories
+## 📄 Summary Table – Support & Tools
 
+| **Module / Feature**           | **Purpose / Use**                                                                 |
+|--------------------------------|-----------------------------------------------------------------------------------|
+| 🎫 Tickets – Support & Issue Tracking |                                                                               |
+| 📚 Knowledge Base              |                                                                                   |
+| New Article                    | Create a help/support article for internal staff or end-users.                    |
+| List of Articles               | View and manage all knowledge base content, with filters by topic or date.        |
+| Tags/Categories (KB)           | Organize articles into searchable categories and tags for easy reference.         |
+| 🆘 Ticketing System            |                                                                                   |
+| New Ticket                     | Create a new support or service request — internal or customer-facing.            |
+| List                           | View all tickets — open, pending, resolved, or closed.                            |
+| My Tickets                     | Display tickets assigned to the logged-in user for resolution.                    |
+| Statistics                     | Analyze ticket volumes, response/resolution times, and team performance.          |
+| Tags/Categories (Tickets)      | Classify tickets by issue type, department, product, or urgency.                  |
+
+---
 ### 2.11 Tools
 
 Includes imports/exports, polls, mass emails, logs, and BI reports.
 **Workflows:** Email Templates, Poll Creation, Barcode Printing
+
+---
+## 📄 Summary Table – Tools & Utilities
+
+| **Module / Feature**        | **Purpose / Use**                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------------|
+| 🛠 Tools – Utilities & Configurations |                                                                           |
+| 🏷 Tags / Categories          | Create and manage reusable tags/categories used across modules (e.g., products, tickets, articles) to improve filtering and classification. |
+| ✉ Email Templates            | Create predefined email templates for quick, consistent communication (used in proposals, invoices, support, etc.). |
+| 📢 Mass Emails               |                                                                                   |
+| New Mass Email               | Draft and send bulk emails to selected users, customers, or prospects.            |
+| List                         | View history and status of all mass email campaigns (sent, scheduled, drafts).    |
+| 📥 Imports / Exports         |                                                                                   |
+| New Import                   | Import data into Dolibarr from CSV or other supported formats (e.g., products, third parties, invoices). |
+| New Export                   | Export Dolibarr data for backup, reporting, or integration purposes.              |
+| 📊 Polls                    |                                                                                   |
+| New Poll                     | Create an internal or external survey/poll for team feedback or decision-making.  |
+| List                         | View all active, closed, or scheduled polls and their responses.                  |
+| 📈 BI – Custom Reports       | Build or view custom business intelligence reports using Dolibarr’s built-in reporting tool. |
+| 🏷 Print Barcodes            | Generate and print barcode labels for products, inventory items, or assets.       |
+| 🔐 Unalterable Logs          | View secure, non-editable logs for sensitive system events and data changes — used for audits and compliance. |
 
 ---
 
