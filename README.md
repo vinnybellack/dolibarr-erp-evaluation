@@ -82,7 +82,7 @@ This repository section summarizes the **HR & Attendance**, **Leave Management**
 | Recruitment → Application    | Add a new candidate                                          |
 | Recruitment → App List       | View and track all applicants                                |
 
-
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ea67167a-1199-4770-8529-19c8666b1cb0" />
 ### 2.2 Communication
 
 Facilitates messaging, approvals, notifications across Sales, HR, Support.
@@ -116,6 +116,9 @@ Facilitates messaging, approvals, notifications across Sales, HR, Support.
 | Interventions → New           | Log new on-site service work (support, repairs, etc.).                               |
 | Interventions → List          | Manage and assign all field service tasks to team members.                           |
 | Interventions → Statistics    | View service performance data, time taken, and team efficiency.                      |
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f4deb618-b98d-4e54-99c2-5236a41ecc00" />
+
 ### 2.3 Projects & Tasks
 
 Plan projects, assign tasks, track time, and analyze progress.
@@ -136,6 +139,8 @@ Plan projects, assign tasks, track time, and analyze progress.
 | Tasks → Statistics           | Analyze task progress, completion rates, team productivity.                             |
 | ⏱ Time Tracking        |                                                                                              |
 | Time Tracking → List         | View logged working hours against tasks/projects for billing or analysis.              |
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fe145f8b-e788-4069-a16c-2f9f9d102f31" />
 
 ### 2.4 Sales & Lead Generation (Third Parties)
 
@@ -163,6 +168,9 @@ Central CRM for leads, clients, vendors, contacts.
 | Contacts → Other               | Contacts not directly tied to the above categories (e.g., partners, misc).        |
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/965e66ba-cb8d-4140-8812-8dd642cde6bc" />
+
+
 ### 2.5 Billing
 
 Professional invoicing for customers and vendors.
@@ -194,6 +202,8 @@ Professional invoicing for customers and vendors.
 | 📊 Margins                       | Track margins per transaction or customer/project for profitability insights.     |
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b4b5619d-6b9c-42bc-89f6-8f94d13cdf9b" />
+
 ### 2.6 Banking
 
 Track cash flow and reconcile accounts.
@@ -218,6 +228,7 @@ Track cash flow and reconcile accounts.
 | Stripe Account → List of Stripe Payouts | View and reconcile Stripe payments and automated transfers to your bank account.|
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/12017096-47f2-44a4-8499-6a8cce49eb72" />
 
 ### 2.7 Accounting
 
@@ -249,6 +260,7 @@ Maintain journals, ledgers, P\&L, and fiscal compliance.
 | Reporting                               | Generate key accounting reports: balance sheet, P&L, trial balance, etc.          |
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/40ba6064-2bfb-4632-b91b-4edff2156d58" />
 ### 2.8 Document Management
 
 Centralized file system tied to modules.
@@ -263,6 +275,7 @@ Centralized file system tied to modules.
 | Object Directories          | Automatically generated folders linked to Dolibarr objects (e.g., customers, invoices, projects), allowing contextual file storage. |
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5f68ea09-37b5-4c59-ba5a-284677c5f312" />
 ### 2.9 Agenda
 
 Shared calendar for events, reminders, and team tasks.
@@ -290,7 +303,7 @@ Shared calendar for events, reminders, and team tasks.
 | Resources → List                 | View all resources available for scheduling and usage tracking.                   |
 
 ---
-
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/169129c8-923f-4620-8e90-257c3aaefe5c" />
 ### 2.10 Tickets
 
 Internal/external issue tracking and support documentation.
@@ -312,6 +325,7 @@ Internal/external issue tracking and support documentation.
 | Tags/Categories (Tickets)      | Classify tickets by issue type, department, product, or urgency.                  |
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d145f7e0-fbe7-476b-bb06-ab0fbbdf6701" />
 ### 2.11 Tools
 
 Includes imports/exports, polls, mass emails, logs, and BI reports.
@@ -339,6 +353,9 @@ Includes imports/exports, polls, mass emails, logs, and BI reports.
 | 🔐 Unalterable Logs          | View secure, non-editable logs for sensitive system events and data changes — used for audits and compliance. |
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ef87eee2-d97f-472b-b040-17965c9a8a09" />
+
+## Workflow Diagram
 <img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/b35f9eda-758a-4cfd-ab98-09278848612e" />
 ## 3. Benefits & Limitations
 
